@@ -48,7 +48,7 @@ function App() {
           </button>
         </div>
       </form>
-      <div>{isSubmitted ? `Full Name: ${fullName}` : null}</div>
+      {isSubmitted ? <p>Full Name: {fullName}</p> : null}
     </div>
   );
 }
